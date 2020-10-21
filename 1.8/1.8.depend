@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1599681890 source:c:\users\cata0\onedrive\desktop\work\interviewprep\1.8\main.cpp
+	<iostream>
+	<unordered_map>
+

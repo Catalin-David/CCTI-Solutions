@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1601589136 source:c:\users\cata0\onedrive\desktop\work\interviewprep\4.1\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+
