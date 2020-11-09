@@ -26,6 +26,6 @@ string binaryToString(double binary){
 
 int main()
 {
-    cout<<binaryToString(0.20);
+    cout<<binaryToString(0.875);
     return 0;
 }

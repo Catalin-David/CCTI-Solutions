@@ -80,7 +80,7 @@ public:
 void sortStack(std::stack<int>& s){
     std::stack<int> r;
 
-    while(!s.empty() > 0){
+    while(!s.empty()){
         int tmp = s.top();
         s.pop();
 

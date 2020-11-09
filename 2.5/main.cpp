@@ -124,6 +124,9 @@ public:
         }
         LinkedList result;
         recursiveAddition(result, head, other.head, tran);
+        if(tran){
+            result.addHead(1);
+        }
 
         return result;
     }
@@ -140,7 +143,7 @@ int main()
     LinkedList l2;
     l2.addHead(5);
     l2.addHead(9);
-    l2.addHead(2);
+    l2.addHead(6);
     LinkedList l3 = l1 + l2;
     l3.printList();
     return 0;

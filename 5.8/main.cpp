@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdint>
+#include <vector>
 using namespace std;
 
 void drawLine(vector<uint8_t> screen, int width, int x1, int x2, int y){
@@ -40,8 +41,5 @@ void drawLine(vector<uint8_t> screen, int width, int x1, int x2, int y){
 
 int main()
 {
-
-
-    cout << "Hello world!" << endl;
     return 0;
 }

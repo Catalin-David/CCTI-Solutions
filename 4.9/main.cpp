@@ -71,9 +71,11 @@ int main()
     Node* node1 = new Node(2);
     Node* node2 = new Node(1);
     Node* node3 = new Node(3);
+    Node* node4 = new Node(4);
 
     node1->left = node2;
     node1->right = node3;
+    node2->left = node4;
 
     list<deque<int>> result = getAllLists(node1);
     for(auto it: result){
